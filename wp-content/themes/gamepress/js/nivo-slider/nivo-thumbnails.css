@@ -1,0 +1,69 @@
+/* ---- SLIDER WITH THUMBNAIL CONTROLS ---- */
+.theme-thumbnails .nivoSlider {
+	position:relative;
+    margin-bottom:138px;
+}
+#slider .nivo-controlNav {
+	position:absolute;
+	bottom:-119px; /* Put the nav below the slider */
+	border-top: 1px solid #393939;
+	width: 620px;
+	padding: 20px 0 20px 22px;
+	background: #222222 url("../../images/content-bottom-bg.png") repeat-x bottom left;
+	overflow: hidden;
+}
+#slider .nivo-controlNav img {
+	display:inline; /* Unhide the thumbnails */
+	position:relative;
+	margin-right:10px;
+}
+#slider.thumbs  a.nivo-control img{
+    width: 128px;
+    height: 72px;
+}
+#slider  a.nivo-control img{
+	background: #ffffff
+}
+#slider  a.nivo-control.active{
+	opacity: 1;
+	filter: alpha(opacity=100); /* IE 7 and Earlier */
+}
+#slider  a.nivo-control{
+	margin: 0 26px 0 0;
+	float: left;
+	width: 128px;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* IE 7 and Earlier */
+}
+#slider  .nivo-controlNav a:last-child {
+	margin: 0;
+}
+
+/* red */
+.theme-thumbnails .nivoSlider.red {
+	background:#000 url(images/loading-red.gif) no-repeat 50% 50%;
+}
+.nivoSlider.red a.nivo-control.active img{
+	outline: 2px solid #A80909;	
+}
+/* green */
+.theme-thumbnails .nivoSlider.green {
+	background:#000 url(images/loading-green.gif) no-repeat 50% 50%;
+}
+.nivoSlider.green a.nivo-control.active img{
+	outline: 2px solid #60a700;	
+}
+/* blue */
+.theme-thumbnails .nivoSlider.blue {
+	background:#000 url(images/loading-blue.gif) no-repeat 50% 50%;
+}
+.nivoSlider.blue a.nivo-control.active img{
+	outline: 2px solid #1d69fd;	
+}
+/* orange */
+.theme-thumbnails .nivoSlider.orange {
+	background:#000 url(images/loading-orange.gif) no-repeat 50% 50%;
+}
+.nivoSlider.orange a.nivo-control.active img{
+	outline: 2px solid #df5012;	
+}

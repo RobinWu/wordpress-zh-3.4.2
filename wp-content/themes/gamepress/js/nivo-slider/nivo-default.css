@@ -1,0 +1,74 @@
+/* Nivo Theme Default */
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#000 url(images/loading.gif) no-repeat 50% 50%;
+    margin-bottom:50px;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	position:absolute;
+	left:50%;
+	bottom:-42px;
+    margin-left:-40px; /* Tweak this to center bullets */
+}
+.theme-default .nivo-controlNav a {
+	display:block;
+	width:16px;
+	height:13px;
+	background:url(images/controls-red.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -16px;
+}
+.theme-default .nivo-caption a {
+    color:#fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+.theme-default .nivo-caption a.more_link {
+    display: inline;
+}
+/* red color scheme */
+.theme-default .nivoSlider.red {
+	background:#000 url(images/loading-red.gif) no-repeat 50% 50%;
+}
+.theme-default .nivoSlider.red .nivo-controlNav a {
+	background-image:url(images/controls-red.png) no-repeat;
+}
+/* green color scheme */
+.theme-default .nivoSlider.green {
+	background:#000 url(images/loading-green.gif) no-repeat 50% 50%;
+}
+.theme-default .nivoSlider.green .nivo-controlNav a {
+	background-image:url(images/controls-green.png);
+}
+/* blue color scheme */
+.theme-default .nivoSlider.blue {
+	background:#000 url(images/loading-blue.gif) no-repeat 50% 50%;
+}
+.theme-default .nivoSlider.blue .nivo-controlNav a {
+	background-image:url(images/controls-blue.png);
+}
+/* orange color scheme */
+.theme-default .nivoSlider.orange {
+	background:#000 url(images/loading-orange.gif) no-repeat 50% 50%;
+}
+.theme-default .nivoSlider.orange .nivo-controlNav a {
+	background-image:url(images/controls-orange.png);
+}
